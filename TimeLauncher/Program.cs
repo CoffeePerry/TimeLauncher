@@ -144,7 +144,7 @@ namespace TimeLauncher {
                 }
             } catch (Exception ex) {
                 Console.WriteLine($"- {APPLICATION_NAME} encountered a problem: {ex.Message}");
-                Console.WriteLine("- Risolvere prima di riavviare l'applicativo.");
+                Console.WriteLine("- Solve before restarting the application.");
             } finally {
                 Console.WriteLine($"- This application will automatically close in {UI_PAUSE_MILLISECONDS / 1000} seconds.");
                 Thread.Sleep(UI_PAUSE_MILLISECONDS);
